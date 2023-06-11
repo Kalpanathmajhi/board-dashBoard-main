@@ -1,0 +1,77 @@
+.App {
+   width:100vw;
+   height: 100vh;
+   padding-block: inherit;
+}
+
+body{
+  margin:0;
+  padding: 0;;
+}
+.sidebar{
+  height: 130%;
+  width:250px;
+  background-color: rgb(7, 7, 7);
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: 
+  Montserrat;
+
+}
+
+.sidebar--open{
+  transform: translateX(0%);
+}
+
+.SidebarList{
+  height: auto;
+  padding: 0;
+  width: 100%;
+
+}
+.SidebarList .row{
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row #title{
+  flex: 70%;
+}
+
+.heading{
+  text-align: center;
+  color: aliceblue;
+}
+.SidebarList .row:hover{
+  cursor: pointer;
+  background-color: gray;
+}
+.row #active{
+  background-color: aquamarine;
+}
+
+.foot{
+  margin-left: 70px;
+  margin-top: 460px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+}
+
+@media screen and (max-width:480px){
+
+  
+}

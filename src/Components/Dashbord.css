@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  font-family: 
+  Montserrat;
+  }
+  
+  .navbar-logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 330px;
+    margin-top: 40px;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+
+  }
+  
+  .navbar-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 40px;
+    margin-right: 70px;
+  }
+  
